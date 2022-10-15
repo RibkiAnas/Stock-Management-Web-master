@@ -1,0 +1,16 @@
+.table{
+    border: 1px solid black;
+}
+
+@media print {
+    .btn{
+        display: none;
+    }
+    table{
+        border: 1pt solid #000000;
+        border-collapse: separate;
+        border-spacing: 0;
+        font-size: 11pt;
+        width: 100%;
+    }
+}
